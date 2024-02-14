@@ -1,0 +1,26 @@
+.flexbox{
+	display: flex;
+	border: 2px solid #23CBD4;
+}
+
+.links{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	align-content: center;
+}
+
+img{
+	display: inline-block;
+	border-radius: 15px;
+	height: 65px;
+	width: 65px;
+}
+
+a{
+	color: #D286AB;	
+	background-color: ;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: monospace;
+}
