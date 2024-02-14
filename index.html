@@ -4,16 +4,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Exercise 2</title>
 	<style>
-		h4 {text-align: center}
-		h4 {font-family: monospace;}
-		h4 {color: #5f0E21;}
+		h2 {text-align: center}
+		h2 {font-family: monospace;}
+		h2 {color: #D286AB;}
+		h3 {text-align: center}
+		h3 {font-family: monospace;}
+		h3 {color: #5f0E21;}
+
 		body {background-color: #23CBD4}
 	</style>
 </head>
 
 	<div class="flexbox">
 		<img src="Simbulan.png" alt="Simbulan Logo">
-		<div class="links">
+		<div class="links" id="home">
 			<a class="active" href="#home">Home</a>
 			<a href="#Featured photo">Featured photo</a>
 			<a href="#Previous projects">Previous projects</a>
@@ -21,30 +25,46 @@
 			<a href="#Autobiography">Autobiography</a>
 		</div>
 	</div>
+
 	<br>
-	<h4>Featured photo</h4>	
+	<h2>Featured photo</h2>	
 	<div id="Featured photo">
 		<img src="featured.jpg" alt="Featured photo" class="center">
 	</div>
 
 	<br>
-	<h4>Previous projects</h4>
-	<div id="Previous projects"></div>	
+	<h2>Previous projects</h2>
+	<div id="Previous projects">
+		<div class="flexbox">
+			<img src="prev1.png" alt="previous project 1" class="prev">
+			<img src="prev2.png" alt="previous project 2" class="prev">
+		</div>
+		<h3>These were my previous projects which I have created for my CMSC 12 exercises.</h3>
+		<h3>The one on the left features a website where you can order a cake while the one on the right uses a js which just calculates the given question from the exercise.</h3>
+	</div>	
 
+
+	<br>
 	<div class="flexbox">
-		
-		
 		<div id="Skills">
-			<h4>Skills</h4>
-
+			<h2>Skills</h2>
+			<h3>- Creative<br>- Patient<br>- Cooperative<br>- Artistic<br>- Knowledgeable on HTML/CSS</h3>
 		</div>
 
 		<div id="Autobiography">
-			<h4>Autobiography</h4>
+			<h2>Autobiography</h2>
+			<h3>Name: Bennard John I. Simbulan<br>Date and place of birth: August 17, 2002 @ Antipolo Doctors Hospital<br>Attended: UPLB under BS Computer Science degree program<br>Hobbies: Playing video games competetively and watching animes</h3>
 		</div>
 	</div>
 	
-
+	<div class="flexbox">
+		<img src="Simbulan.png" alt="Simbulan Logo">
+		<div>
+			<h2>Footer Contents</h2>
+			<h3>Address: Bangkal St., Brgy. San Antonio, Los Banos, Laguna / 09612607527<br>Copyright Information</h3>
+			<a href="#home">Back to Top</a>
+		</div>
+	</div>
 
 </body>
 </html>

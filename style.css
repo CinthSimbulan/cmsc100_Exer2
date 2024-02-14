@@ -28,9 +28,17 @@ a{
 }
 
 .center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 35%;
-  width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 35%;
+	width: 35%;
+}
+
+.prev{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 45%;
+	width: 45%;
 }
