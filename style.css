@@ -1,6 +1,8 @@
 .flexbox{
 	display: flex;
-	border: 2px solid #23CBD4;
+	border: 2px solid #05b5be;
+	justify-content: space-evenly;
+	flex: 1;
 }
 
 .links{
@@ -23,4 +25,12 @@ a{
 	text-decoration: none;
 	font-size: 25px;
 	font-family: monospace;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35%;
+  width: 35%;
 }
